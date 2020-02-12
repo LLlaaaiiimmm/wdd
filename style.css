@@ -93,7 +93,7 @@ html {
 .first-screen:hover img:nth-child(2) {
 	transform: translate(80px, -80px);
 	opacity: .6
-	}
+	}d
 
 .first-screen:hover img:nth-child(1) {
 	transform: translate(40px, -40px);
@@ -141,6 +141,7 @@ div.project {
 	background-color: #34547A;
 	justify-content: space-between;
 	display: flex;
+	background-size: cover;
 }
 
 .project5 {
@@ -213,6 +214,7 @@ div.ingalery2 {
 }
 div.galery {
 	width: 100%;
+	max-width: 1200px;
 }
 
 div.galery1 {
@@ -367,4 +369,11 @@ div.microsoft img {
 	height: 290px;
 	width: 300px;
 	margin: 0px 50px 0px 50px;
+}
+
+@media only screen and (max-width: 360px){
+	.project {
+		width: 600px;
+		background-color: #34547A;
+	}
 }
