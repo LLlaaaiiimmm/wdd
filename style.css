@@ -142,6 +142,7 @@ div.project {
 	justify-content: space-between;
 	display: flex;
 	background-size: cover;
+	margin: 0px 70px 0px 70px;
 }
 
 .project5 {
@@ -149,6 +150,7 @@ div.project {
 	max-width: 1200px;
 	background-color: #34547A;
 	width: 100%;
+	margin: 0px 50px 0px 50px;
 }
 
 .project1 {
@@ -196,7 +198,7 @@ div.project {
 
 div.project img {
 	width: 12.5%;
-	height: 12.5%;
+	height: 40%;
 }
 
 div.ingalery1 {
@@ -371,9 +373,11 @@ div.microsoft img {
 	margin: 0px 50px 0px 50px;
 }
 
-@media only screen and (max-width: 360px){
+@media all and (max-width: 360px) {
 	.project {
-		width: 600px;
+		width: 100%;
+		height: 100px;
 		background-color: #34547A;
+		display: none;
+		margin: 0px 40px 0px 40px; 
 	}
-}
