@@ -12,6 +12,7 @@ html {
 	font-size: 10px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
+	overflow-x: hidden;
 }
 
 
@@ -186,11 +187,13 @@ div.ingalery2 {
 	height: 37.5%;
 	justify-content: space-between;
 	display: inline-flex;
+	float: left;
 }
 div.galery {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0px 275px 0px 275px;
+	float: left;
 }
 
 div.galery1 {
@@ -198,6 +201,7 @@ div.galery1 {
 	height: 250px;
 	background-image: url("img/plan.webp");
 	background-size: cover;
+	float: left;
 }
 
 div.galery2 {
@@ -205,6 +209,7 @@ div.galery2 {
 	height: 250px;
 	background-image: url("img/plan.webp");
 	background-size: cover;
+	float: left;
 }
 
 div.galery3 {
@@ -212,6 +217,7 @@ div.galery3 {
 	height: 250px;
 	background-image: url("img/plan.webp");
 	background-size: cover;
+	float: left;
 }
 
 div.galery4 {
@@ -219,6 +225,7 @@ div.galery4 {
 	height: 250px;
 	background-image: url("img/plan.webp");
 	background-size: cover;
+	float: left;
 }
 
 div.galery5 {
@@ -226,6 +233,7 @@ div.galery5 {
 	height: 250px;
 	background-image: url("img/plan.webp");
 	background-size: cover;
+	float: left;
 }
 
 div.galery6 {
@@ -233,6 +241,7 @@ div.galery6 {
 	height: 250px;
 	background-image: url("img/plan.webp");
 	background-size: cover;
+	float: left;
 }
 
 div.galery7 {
@@ -240,6 +249,7 @@ div.galery7 {
 	height: 250px;
 	background-image: url("img/plan.webp");
 	background-size: cover;
+	float: left;
 }
 
 div.galery8 {
@@ -247,6 +257,7 @@ div.galery8 {
 	height: 250px;
 	background-image: url("img/plan.webp");
 	background-size: cover;
+	float: left;
 }
 
 .galery:hover  .w {
@@ -348,7 +359,10 @@ div.microsoft img {
 }
 
 @media all and (max-width: 360) {
-	.Disain {
-		font-size: 800px;
+	html {
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	overflow-x: hidden;
 	}
 }
