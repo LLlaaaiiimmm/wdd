@@ -65,7 +65,7 @@ html {
 	color: white;
 }
 div.about {
-	position: absolute;
+	
 	width: 80%;
 	height: 90%;
 	left: 10%;
@@ -83,8 +83,7 @@ img.egor {
 }
 
 h1.aboutmeh1 {
-position: absolute;
-text-align: center;
+margin-left: 80%;
 top: 25%;
 right: 30%;
 
@@ -98,9 +97,9 @@ color: #000000;
 
 
 p.aboutme {
-position: absolute;
-right: 25%;
-top: 45%;
+
+margin-left: 70%;
+margin-top: 3%;
 
 /* p */
 
@@ -116,9 +115,9 @@ color: #727272;
 }
 
 p.css {
-position: absolute;
-right: 25%;
-top: 40%;
+margin: 5% 0 0 0;
+width: 10%;
+margin-left: 75%;
 
 /* p */
 
@@ -131,6 +130,11 @@ text-align: center;
 display: block;
 
 color: #727272;	
+}
+
+.znania {
+	background-color: #FFFFFF;
+	margin-left: 10%;
 }
 
 
