@@ -191,12 +191,13 @@ div.galery {
 	width: 100%;
 	max-width: 1200px;
 	float: left;
+	margin: auto;
 }
 
 div.galery1 {
 	width: 50%;
 	height: 250px;
-	background-image: url("img/plan.webp");
+	background-image: url("img/html.png");
 	background-size: cover;
 	float: left;
 }
@@ -204,7 +205,7 @@ div.galery1 {
 div.galery2 {
 	width: 50%;
 	height: 250px;
-	background-image: url("img/plan.webp");
+	background-image: url("img/css.png");
 	background-size: cover;
 	float: left;
 }
@@ -212,7 +213,7 @@ div.galery2 {
 div.galery3 {
 	width: 50%;
 	height: 250px;
-	background-image: url("img/plan.webp");
+	background-image: url("img/simferopol.jpg");
 	background-size: cover;
 	float: left;
 }
@@ -220,7 +221,7 @@ div.galery3 {
 div.galery4 {
 	width: 50%;
 	height: 250px;
-	background-image: url("img/plan.webp");
+	background-image: url("img/egorka.jpg");
 	background-size: cover;
 	float: left;
 }
@@ -228,7 +229,7 @@ div.galery4 {
 div.galery5 {
 	width: 50%;
 	height: 250px;
-	background-image: url("img/plan.webp");
+	background-image: url("img/coddy.png");
 	background-size: cover;
 	float: left;
 }
@@ -236,7 +237,7 @@ div.galery5 {
 div.galery6 {
 	width: 50%;
 	height: 250px;
-	background-image: url("img/plan.webp");
+	background-image: url("img/sublime.jpg");
 	background-size: cover;
 	float: left;
 }
@@ -244,7 +245,7 @@ div.galery6 {
 div.galery7 {
 	width: 50%;
 	height: 250px;
-	background-image: url("img/plan.webp");
+	background-image: url("img/sport.jpg");
 	background-size: cover;
 	float: left;
 }
@@ -252,7 +253,7 @@ div.galery7 {
 div.galery8 {
 	width: 50%;
 	height: 250px;
-	background-image: url("img/plan.webp");
+	background-image: url("img/mu.png");
 	background-size: cover;
 	float: left;
 }
@@ -351,7 +352,7 @@ div.conatiner {
 
 div.microsoft img {
 	height: 290px;
-	width: 250px;
+	width: 400px;
 	margin: 0px 50px 0px 50px;
 }
 	
@@ -414,4 +415,4 @@ div.microsoft img {
 	justify-content: space-between;
 }
 	}*/
-	
+
