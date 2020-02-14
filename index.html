@@ -1,77 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>cfqn</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Revalia|Roboto&display=swap" rel="stylesheet">
+	<title>FuTube</title>
+	<link rel="stylesheet" href="style.css">
+	<!--подключить шрифт Open Sans из Google-->
+	<meta name="viewport" content="width=device-width,initial-sclale=1">
 </head>
 <body>
-<div class="nav-wrapper">
-			<div class="logo">BH</div>
-			<nav class="topnav">в
-				<a href="index.html" class="nav-link">Главная страница</a>
-				<a href="second.html" target="_blank" class="nav-link">Об авторе</a>
-				<a href="https://vk.com/id330016325" class="nav-link">Написать</a>
-				<p class="Disain">Почему?HMTL</p>
-				<p class="disain">HTML— стандартизированный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке HTML (или XHTML). Язык HTML интерпретируется браузерами; полученный в результате интерпретации форматированный текст отображается на экране монитора компьютера или мобильного устройства.ВОТ ПОЧЕМУ Я ИСПОЛЬЗУЮ HTML!!!</p>
+	<div class="nav-wrapper">
+			<div class="logo">FuTube</div>
+			<nav class="topnav">
+				<a href="#" class="nav-link">Главная страница</a>
+				<a href="#about" class="nav-link">О нас</a>
+				<a href="#" class="nav-link">Сервисы</a>
+				<a href="#" class="nav-link">Портфолио</a>
+				<a href="#" class="nav-link">Блог</a>
+				<a href="#" class="nav-link">Контакты</a>
+				<div class="search-wrapper">
+					<input type="text" class="search">
+				</div>
 			</div>
-	<div class="first-screen">
-		<img src="img/html.png">
-		<img src="img/html.png">
-		<img src="img/html.png">
-		<img src="img/html.png">
+			</nav>
+	<header class="header">
+		<div class="box">
+			<h1 class="h1">
+				крутой проэкт
+			</h1>
+			<p class="subtitle">
+				МЫ сверстали его с шаблона
+			</p>
+			<button class="header-btn transparent"><span class="hide-mobile">Наши сервисы</span>
 
-	</div>
-	<div class="project">
-		<div class="project-container">
-			<div class="project5">
-				<img class="project1img" src="img/project.png">
-				<span class="project1">25+ project</span>		
-			</div>
-			<div class="project5">
-				<img class="project1img" src="img/project.png">
-				<span class="project1">25+ project</span>		
-			</div>
-			<div class="project5">
-				<img class="project1img" src="img/project.png">
-				<span class="project1">25+ project</span>		
-			</div>
+			</button>
+			<button class="header-btn green">
+				Что-то еще
+			</button>
 		</div>
-	</div>
-	<div class="galery">
-		<div class="ingalery1">
-		<div class="galery1 w"></div>
-		<div class="galery2 w"></div>
-		<div class="galery3 w"></div>
-		<div class="galery4 w"></div>
-		</div>
-		<div class="ingalery2">
-		<div class="galery5 w"></div>
-		<div class="galery6 w"></div>
-		<div class="galery7 w"></div>
-		<div class="galery8 w"></div>
-	</div>
-	</div>
-	<div class="microsoft">
-		<img src="img/microsoft.png">
-		<img src="img/microsoft.png">
-		<img src="img/microsoft.png">
-		<img src="img/microsoft.png">
-	</div>
-	<form action="action_page.php">
+	</header>
+	<main class="main">
+		<section id="about" class="first">
+			<h2 class="h2">О нас</h2>
+			<p class="section-subtitle">МЫ крутые разработчкики этот сайта :)</p>
+			<div class="first-box">
+				<div class="first-item">
+					<img src="img/collaboration.png" alt="" class="icon">
+					<h3 class="h3"></h3>
+					<p class="sectionsubtitle">текст</p>
+				</div>
+				<div class="first-item">
+					<img src="img/language.png" alt="" class="icon">
+					<h3 class="h3">Подзаголовок2</h3>
+					<p class="sectionsubtitle">текст</p>
+				</div>
+				<div class="first-item">
+					<img src="img/thinking.png" alt="" class="icon">
+					<h3 class="h3">Подзаголовок3</h3>
+					<p class="sectionsubtitle">текст</p>
+				</div>
+			</div>
+		</section>
+		<section class="second">
+			<h2 class="h2">Наши сервисы</h2>
+			<p class="section-subtitle">Наши крутые сервисы:)</p>
+			<div class="second-box">
+				<div class="second-item">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80px" height="80px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect x="0" y="0" width="24" height="24"/>
+        <path d="M4,4 L11.6314229,2.5691082 C11.8750185,2.52343403 12.1249815,2.52343403 12.3685771,2.5691082 L20,4 L20,13.2830094 C20,16.2173861 18.4883464,18.9447835 16,20.5 L12.5299989,22.6687507 C12.2057287,22.8714196 11.7942713,22.8714196 11.4700011,22.6687507 L8,20.5 C5.51165358,18.9447835 4,16.2173861 4,13.2830094 L4,4 Z" fill="#000000" opacity="0.3"/>
+        <path d="M11.1750002,14.75 C10.9354169,14.75 10.6958335,14.6541667 10.5041669,14.4625 L8.58750019,12.5458333 C8.20416686,12.1625 8.20416686,11.5875 8.58750019,11.2041667 C8.97083352,10.8208333 9.59375019,10.8208333 9.92916686,11.2041667 L11.1750002,12.45 L14.3375002,9.2875 C14.7208335,8.90416667 15.2958335,8.90416667 15.6791669,9.2875 C16.0625002,9.67083333 16.0625002,10.2458333 15.6791669,10.6291667 L11.8458335,14.4625 C11.6541669,14.6541667 11.4145835,14.75 11.1750002,14.75 Z" fill="#000000"/>
+    </g>
+</svg>
+					<h3 class="h3">Заголовок1</h3>
+					<p class="section-subtitle">xxxxxxxxxxxxxxxxxxxxxx</p>
+					<button class="readmore">Читать далее</button><span class="hide-mobile">Читать далее</span>
+				</div>
+				<div class="second-item">
+					<img src="img/thinking.png" alt="" class="icon">
+					<h3 class="h3">Заголовок2</h3>
+					<p class="section-subtitle">xxxxxxxxxxxxxxxxxxxxxx</p>
+					<button class="readmore">Читать далее</button><span class="hide-mobile">Читать далее</span>
+				</div>
+				<div class="second-item">
+					<img src="img/thinking.png" alt="" class="icon">
+					<h3 class="h3">Заголовок3</h3>
+					<p class="section-subtitle">xxxxxxxxxxxxxxxxxxxxxx</p>
+					<button class="readmore">Читать далее</button><span class="hide-mobile">Читать далее</span>
+				</div>
+				<div class="second-item">
+					<img src="img/thinking.png" alt="" class="icon">
+					<h3 class="h3">Заголовок4</h3>
+					<p class="section-subtitle">xxxxxxxxxxxxxxxxxxxxxx</p>
+					<button class="readmore">Читать далее</button><span class="hide-mobile">Читать далее</span>
+				</div>
+				<div class="second-item">
+					<img src="img/thinking.png" alt="" class="icon">
+					<h3 class="h3">Заголовок5</h3>
+					<p class="section-subtitle">xxxxxxxxxxxxxxxxxxxxxx</p>
+					<button class="readmore">Читать далее</button><span class="hide-mobile">Читать далее</span>
+				</div>
+				<div class="second-item">
+					<img src="img/thinking.png" alt="" class="icon">
+					<h3 class="h3">Заголовок6</h3>
+					<p class="section-subtitle">xxxxxxxxxxxxxxxxxxxxxx</p>
+					<button class="readmore">Читать далее</button><span class="hide-mobile">Читать далее</span>
+				</div>
+			</div>
+		</section>
+	</main>
+<form action="action_page.html">
   <div class="container">
-    <h1>Register</h1>
-    <p>Please fill in this form to create an account.</p>
+    <h1>Регистрация</h1>
+    <p>Пожалуйста добавьте свой аккаунт.</p>
     <hr>
 
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
 
-    <label for="psw"><b>Password</b></label>
+    <label for="psw"><b>Пароль</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <label for="psw-repeat"><b>Повторите пароль</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
     <hr>
 
@@ -83,13 +133,5 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 </form>
-</div>
-<div class="foot">
-<footer id="footer"> 
-	<p></p>
-	<p>Егор Иващенко</p>
-</footer>
-</div>
 </body>
-</body>
-</html>
+</html> 
