@@ -12,36 +12,9 @@ html {
 	font-size: 10px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-}
-.nav-wrapper {
-	height: 100px;
-	display: flex;
-	padding: 0 100px;
-	/*position: absolute;*/
-	width: 100%;
-	align-items: center;
-	justify-content: space-between;
+	overflow-x: hidden;
 }
 
-.topnav {
-	display: flex;
-	justify-content: flex-end;
-	/*width: 97.5%;
-	margin: auto;*/
-	/*max-width: 1200px;
-	background-color: white;*/
-	align-items: center;
-}
-.nav-link {
-	text-decoration: none;
-	color: #212121;
-	/*display: inline-block;*/
-	font-size: 1.5rem;
-	letter-spacing: 0.5px;
-	margin: 15px;
-	padding: 10px 15px;
-	transition: 0.3s ease-in;
-}
 
 /*.nav-link + .nav-link, .nav-link:first-child {
 	margin: 3%;
@@ -53,32 +26,81 @@ html {
 	font-family: 'Revalia', cursive;
 	width: 150px;
 	color: #34547A;
+	top: 200px;
 }
 
-.nav-link:hover {
-	background-color: #34547A;
-	color: white;
+	div.back a {
+		right: 10%;
+		top: 10%;
+		float: right;
+		margin: 0 10% 0 10%;
+	}
+
+	img {
+		width: 30px;
+		height: 30px;
+	}
+
+.container {
+  padding: 16px;
 }
 
-div.instargram {
-	position: absolute;
-	width: 50%;
-	height: 50%;
-	right: 50%;
-	bottom: 50%;
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
 }
 
-div.instagram img {
-
-	width: 50%;
-	height: 50%;
-	right: 50%;
-	bottom: 50%;
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
 }
 
-div.instagram a {
-	text-decoration: none;
-	font-style: normal;
-	font-size: 32px;
-	font-weight: 32px;
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
 }
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+
+@media all and (max-width: 1150px){
+	.nav-link {
+		display: none;
+	}
+	.hamburger-menu {
+		display: block;
+	}
+} 
